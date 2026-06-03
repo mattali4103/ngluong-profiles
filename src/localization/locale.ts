@@ -24,6 +24,7 @@ export interface IStrings {
   about_education: string;
   about_certificates: string;
   about_university: string;
+  about_gpa: string;
   about_cert_cybersecurity: string;
   about_cert_toeic: string;
 

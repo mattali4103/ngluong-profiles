@@ -50,6 +50,9 @@ function App() {
                   <li>
                     {strings.about_university}
                   </li>
+                  <li>
+                    {strings.about_gpa}
+                  </li>
                 </ul>
               </div>
               <div className="about-card">
