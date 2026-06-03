@@ -1,0 +1,24 @@
+{
+  "slides": [
+    {
+      "src": "/slide/gallery1.png",
+      "alt": "Image 1 for carousel",
+      "type": "image"
+    },
+    {
+      "src": "/slide/gallery2.png",
+      "alt": "Image 2 for carousel",
+      "type": "image"
+    },
+    {
+      "src": "/slide/gallery3.png",
+      "alt": "Image 3 for carousel",
+      "type": "image"
+    },
+    {
+      "src": "https://www.youtube.com/embed/FfCa1CFUg-A?si=TGAwTW_K-MEeiVz7",
+      "alt": "YouTube video player",
+      "type": "video"
+    }
+  ]
+}
