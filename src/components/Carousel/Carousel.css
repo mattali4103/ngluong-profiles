@@ -1,12 +1,29 @@
+@media (max-width: 600px){
+  .carousel{
+    aspect-ratio: 4 / 5 !important;
+  }
+}
+@media (max-with: 468px){
+  .carousel{
+    aspect-ratio: 3 / 4 !important;
+  }
+}
 .carousel {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  aspect-ratio: 16 / 9;
   min-height: 260px;
   overflow: hidden;
+  aspect-ratio: 16 / 9;
+}
+
+.gallery-image img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  border-radius: 22px;
 }
 
 
@@ -35,7 +52,7 @@
   box-shadow: 0px 0px 7px #666;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .slide-video {

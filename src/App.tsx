@@ -96,10 +96,7 @@ function App() {
               <p className="project-description">
                 {strings.projects_project1_desc}
               </p>
-
-              <div className="">
                 <Carousel data={slides} />
-              </div>
               <div className="hero-actions">
                 <a
                   className="btn btn-primary"

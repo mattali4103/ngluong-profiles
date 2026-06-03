@@ -1,7 +1,6 @@
-
 :root {
   --primary-bg-color: #121111;
-  --secondary-bg-color: #1B1B1B;
+  --secondary-bg-color: #1b1b1b;
   --surface: #181c2b;
   --surface-soft: #22273f;
   --text: #f5f7ff;
@@ -36,7 +35,9 @@ body {
   background: var(--primary-bg-color);
 }
 
-a, p, li{
+a,
+p,
+li {
   color: var(--text-muted);
   font-family: "IBM Plex Mono", monospace;
 }
@@ -273,7 +274,7 @@ main {
   margin-bottom: 0.5rem;
 }
 
-.profile-image img{
+.profile-image img {
   height: 30%;
   max-height: 480px;
   clip-path: ellipse(50% 50% at 50% 50%);
@@ -289,7 +290,6 @@ main {
   letter-spacing: 0.06em;
   width: fit-content;
 }
-
 
 .profile-summary p {
   margin: 1rem 0 0;
@@ -324,7 +324,8 @@ main {
   border-radius: 24px;
   padding: 1.5rem;
 }
-.school-icon, .certificate-icon {
+.school-icon,
+.certificate-icon {
   margin-left: 0.5rem;
   font-size: 1.5rem;
   color: var(--accent);
@@ -349,8 +350,6 @@ main {
   line-height: 1.8;
   text-align: justify;
 }
-
-
 
 .projects-grid {
   grid-template-columns: repeat(3, minmax(220px, 1fr));
@@ -446,6 +445,9 @@ main {
   .contact-content {
     grid-template-columns: 1fr;
   }
+  .App-header {
+    display: none;
+  }
 
   .about-grid,
   .skills-grid,
@@ -460,6 +462,9 @@ main {
 }
 
 @media (max-width: 640px) {
+  .App-header {
+    display: none;
+  }
   .section {
     padding: 2rem 1rem;
   }
@@ -472,11 +477,4 @@ main {
   .btn {
     width: 100%;
   }
-}
-
-.gallery-image img {
-  width: 70%;
-  height: 70%;
-  object-fit: contain;
-  border-radius: 22px;
 }
